@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,600&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.5)),url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* NAVBAR */
+.navbar{
+    display:flex;
+    height: 80px;
+    align-items: center;
+    padding: 0 30px;
+}
+.logo{
+    flex:1;
+}
+.logo h2{
+color: white;
+border: 1px solid skyblue;
+width:85px;
+border-radius: 10px;
+}
+.logo img{
+    width:20px;
+}
+.menu-items{
+    flex:1
+}
+.menu-items ul{
+ list-style: none;
+ display: flex;
+ justify-content: space-evenly;
+ color: white;
+}
+.menu-items .border{
+    border-top: 2px solid skyblue;
+    margin-bottom:5px;
+}
+/* NAVBAR */
+/* HEADER */
+.header{
+    display: flex;
+    min-height: 100vh;
+    padding: 0px 70px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:-100px;
+}
+.slogan1{
+    color: skyblue;
+}
+.header .slogan{
+    flex: 1;
+}
+
+.header img{
+    width:600px
+}
+.header button{
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: skyblue;
+    font-weight: bold;
+    border-bottom: 2px solid skyblue;
+    margin-left: 150px;
+    margin-top:-10px
+}
+.header .form{
+    flex:1; 
+    border: 2px solid skyblue;
+}
+.child-div{
+    display:flex;
+    margin: 30px;
+    justify-content: space-between;
+}
+.child-div label{
+flex: 1;
+color: skyblue;
+margin-top: 20px;
+
+}
+.child-div input{
+flex: 2;
+margin-left: -80px;
+height: 30px;
+border:none;
+outline: none;
+margin-top: 20px;
+text-align: center;
+background-color: rgb(235, 235, 235);
+}
+.form button{
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: skyblue;
+    color: white;
+    font-weight: 300px;
+    margin-top: 30px;
+    border-bottom: 2px solid white;
+    margin:0px 0px 30px 280px 
+}
+.footer{
+    background-color: skyblue;
+    height: 80px;
+    margin-top: -60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .fa{
+    margin-left: 30px;
+   background-color: white;
+   padding:10px;
+   border-radius: 50%;
+   color: skyblue;
+}
